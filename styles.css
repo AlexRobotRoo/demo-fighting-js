@@ -1,0 +1,40 @@
+/* Контейнер для health баров и для таймера */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 30px;
+}
+
+.health-bar {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    margin: 0 20px;
+    border: 2px solid #000;
+}
+
+.health-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #0f0;
+}
+
+.timer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('./assets/images/Flag.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+}
